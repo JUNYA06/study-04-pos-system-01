@@ -43,7 +43,7 @@ def main():
     order.add_item_order("003")
     
     # オーダー表示
-    order.view_item_list(order)
+    order.view_item_list()
     
 if __name__ == "__main__":
     main()
